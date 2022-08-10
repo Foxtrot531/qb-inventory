@@ -1,3 +1,5 @@
+Small modification allowing to have a single trunk size per vehicle with the model :)
+
 # qb-inventory
 
 # License
