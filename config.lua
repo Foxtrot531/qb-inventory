@@ -330,6 +330,13 @@ Config.AttachmentCrafting = {
     }
 }
 
+Config.VehicleTrunks = {
+    [`pounder`] = {  -- model
+        maxweight = 1000000, -- weight (1000000 = 1 tons)
+        slots = 20 -- (Number of slots)
+    }
+}
+
 MaxInventorySlots = 41
 
 BackEngineVehicles = {
