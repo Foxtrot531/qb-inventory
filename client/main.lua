@@ -656,6 +656,13 @@ RegisterCommand('inventory', function()
                     maxweight = 60000
                     slots = 35
                 end
+		
+		local modelHash = GetEntityModel(curVeh)
+                if Config.VehicleTrunks[modelHash] then
+                maxweight = Config.VehicleTrunks[modelHash].maxweight
+                slots = Config.VehicleTrunks[modelHash].slots
+                end			
+							
                 local other = {
                     maxweight = maxweight,
                     slots = slots,
